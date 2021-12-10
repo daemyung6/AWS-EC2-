@@ -31,7 +31,7 @@ sudo vi /etc/vsftpd/vsftpd.conf
 ##pasv options added
 pasv_enable=YES
 pasv_min_port=1024
-pasv_mac_port=1048
+pasv_max_port=1048
 pasv_address=xx.xxx.xxx.xxx
 ```
 pasv_address에는 EC2 인스턴스의 public ip 기입
